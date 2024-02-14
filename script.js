@@ -1,6 +1,7 @@
 
 const NOTA = document.querySelector("#nota")
 const BOTON = document.querySelector("#carga")
+const porcentaje = document.querySelector("#porcentaje")
 
 BOTON.addEventListener("click", () => {
     darNota();
@@ -38,7 +39,7 @@ function darNota() {
 
 function calculoNota() {
     PC = calculoPc();
-
+    console.log(PC)
     if (PC === 0) {
         return 0
     }
