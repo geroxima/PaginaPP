@@ -17,29 +17,37 @@ function darNota() {
 
         case 1:
             NOTA.innerText = "Tu Nota Final es: \n 1"
+            porcentaje.innerText = "Tu Porcentaje Final es: \n " + calculoPc();
             break;
 
         case 2:
             NOTA.innerText = "Tu Nota Final es: \n 2"
+            porcentaje.innerText = "Tu Porcentaje Final es: \n " + calculoPc() + "%";
+
             break;
 
         case 3:
             NOTA.innerText = "Tu Nota Final es: \n 3"
+            porcentaje.innerText = "Tu Porcentaje Final es: \n " + calculoPc() + "%";
+
             break;
 
         case 4:
             NOTA.innerText = "Tu Nota Final es: \n 4"
+            porcentaje.innerText = "Tu Porcentaje Final es: \n " + calculoPc() + "%";
+
             break;
 
         case 5:
             NOTA.innerText = "Tu Nota Final es: \n 5"
+            porcentaje.innerText = "Tu Porcentaje Final es: \n " + calculoPc() + "%";
+
             break;
     }
 }
 
 function calculoNota() {
     PC = calculoPc();
-    console.log(PC)
     if (PC === 0) {
         return 0
     }
