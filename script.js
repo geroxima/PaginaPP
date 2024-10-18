@@ -74,8 +74,9 @@ function calculoNota() {
 }
 
 function calculoPc() {
-    const PP = document.querySelector("#pp").value
-    const PF = document.querySelector("#pf").value
+    const PP = parseInt(document.querySelector("#pp").value); 
+    //Chris pt
+    const PF = parseInt(document.querySelector("#pf").value);
     let PC;
 
     //Verificamos si PP es suficiente para si quiera tomar examen final 
