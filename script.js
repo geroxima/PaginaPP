@@ -64,7 +64,7 @@ function calculoNota() {
         return 3
     }
 
-    else if (PC >= 81 && PC <= 89) {
+    else if (PC >= 81 && PC <= 90) {
         return 4
     }
 
